@@ -8,9 +8,9 @@ import { SignUp } from './pages/auth/sign-up'
 
 export const router = createBrowserRouter([
   {
-    path: '/pizza-shop-web/',
+    path: '/pizza-shop-web',
     element: <AppLayout />,
-    children: [{ path: '/pizza-shop-web/', element: <SignIn /> }],
+    children: [{ path: '/pizza-shop-web', element: <Dashboard /> }],
   },
 
   {
