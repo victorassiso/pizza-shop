@@ -40,7 +40,7 @@ export function SignIn() {
       <Helmet title="Login" />
       <div className="p-8">
         <Button variant="ghost" asChild className="absolute right-8 top-8">
-          <Link to="/sign-up" className="">
+          <Link to="/pizza-shop-web/sign-up" className="">
             Novo estabelecimento
           </Link>
         </Button>

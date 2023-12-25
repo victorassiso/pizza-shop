@@ -8,17 +8,17 @@ import { SignUp } from './pages/auth/sign-up'
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/pizza-shop-web/',
     element: <AppLayout />,
-    children: [{ path: '/', element: <Dashboard /> }],
+    children: [{ path: '/pizza-shop-web/', element: <Dashboard /> }],
   },
 
   {
-    path: '/',
+    path: '/pizza-shop-web/',
     element: <AuthLayout />,
     children: [
-      { path: '/sign-in', element: <SignIn /> },
-      { path: '/sign-up', element: <SignUp /> },
+      { path: '/pizza-shop-web/sign-in', element: <SignIn /> },
+      { path: '/pizza-shop-web/sign-up', element: <SignUp /> },
     ],
   },
 ])
