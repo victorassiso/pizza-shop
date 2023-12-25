@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
   {
     path: '/pizza-shop-web/',
     element: <AppLayout />,
-    children: [{ path: '/pizza-shop-web/', element: <Dashboard /> }],
+    children: [{ path: '/pizza-shop-web/', element: <SignIn /> }],
   },
 
   {
