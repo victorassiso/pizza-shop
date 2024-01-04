@@ -14,11 +14,11 @@ export function Header() {
         <Separator orientation="vertical" />
 
         <nav className="flex items-center space-x-4 lg:space-x-6">
-          <NavLink to="/pizza-shop-web">
+          <NavLink to="/">
             <Home className="h-4 w-4" />
             Início
           </NavLink>
-          <NavLink to="/pizza-shop-web/orders">
+          <NavLink to="/orders">
             <UtensilsCrossed className="h-4 w-4" />
             Pedidos
           </NavLink>

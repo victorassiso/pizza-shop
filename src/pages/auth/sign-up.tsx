@@ -33,7 +33,7 @@ export function SignUp() {
       toast.success('Estabelecimento cadastrado com sucesso', {
         action: {
           label: 'Login',
-          onClick: () => navigate('/pizza-shop-web/sign-in'),
+          onClick: () => navigate('/sign-in'),
         },
       })
     } catch (error) {
@@ -46,7 +46,7 @@ export function SignUp() {
       <Helmet title="Cadastro" />
       <div className="p-8">
         <Button variant="ghost" asChild className="absolute right-8 top-8">
-          <Link to="/pizza-shop-web/sign-in" className="">
+          <Link to="/sign-in" className="">
             Fazer Login
           </Link>
         </Button>
