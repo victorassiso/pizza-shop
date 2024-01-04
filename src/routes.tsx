@@ -30,5 +30,5 @@ export const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: '/pizza-shop-web' },
+  { basename: '/pizza-shop' },
 )

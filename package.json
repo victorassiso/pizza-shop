@@ -1,6 +1,6 @@
 {
-  "homepage": "https://victorassiso.github.io/pizza-shop-web",
-  "name": "pizza-shop-web",
+  "homepage": "https://victorassiso.github.io/pizza-shop",
+  "name": "pizza-shop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
