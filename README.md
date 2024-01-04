@@ -3,7 +3,7 @@
 An administration dashboard for managing a pizzeria. This application provides features for handling orders and tracking relevant statistics for pizzeria operations.
 
 ## Available On
-https://github.com/victorassiso/pizza-shop
+https://victorassiso.github.io/pizza-shop
 
 ## Features
 * Order Management
